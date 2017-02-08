@@ -1,5 +1,5 @@
 {
-  "name": "strong-soap",
+  "name": "soap-addressing",
   "version": "1.2.0",
   "description": "A minimal node SOAP client",
   "engines": {
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/strong-soap.git"
+    "url": "https://github.com/aymen-mouelhi/strong-soap.git"
   },
   "main": "./index.js",
   "directories": {
@@ -41,7 +41,7 @@
     "prepublish": "babel src -d lib"
   },
   "keywords": [
-    "soap"
+    "soap", "addressing"
   ],
   "license": "MIT",
   "devDependencies": {
